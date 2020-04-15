@@ -63,6 +63,7 @@ body {
 	font-family: 'Raleway', sans-serif;
 	padding-top: 40px;
 	padding-bottom: 20px;
+	text-decoration: underline;
 }
 .menu{
 	display: flex;
@@ -71,7 +72,7 @@ body {
 }
 .menu a{
 	color: black;
-	font-size: 30px;
+	font-size: 34px;
 	margin: 40px 40px;
 	padding: 8px 12px;
 	text-decoration: none;
@@ -86,7 +87,7 @@ body {
 	border-radius: 24px;
 }
 .content{
-	font-size: 18px;
+	font-size: 22px;
 	line-height: 1.4;
 	letter-spacing: 1px;
 	color: black;
@@ -201,7 +202,7 @@ ol{
 h2 {
 	text-align: center;
 	font-family: 'Raleway', sans-serif;	
-	font-size: 20px;
+	font-size: 26px;
 	font-style: italic;
 }
 .nombres{
@@ -230,3 +231,20 @@ h2 {
 .videocompra{
 	text-align: center;
 }
+.separatordown{
+	position: relative;
+	top: -30px;
+	width: 95%;
+	background-color: black;
+	height: 2px;
+	margin: 0 auto;
+}
+.separatorup{
+	position: relative;
+	top: 30px;
+	width: 95%;
+	background-color: black;
+	height: 2px;
+	margin: 0 auto;
+}
+
